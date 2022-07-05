@@ -126,8 +126,7 @@ h3{
     width: 80%;
     height: 350px;
     background-image: url(images/icon-email.svg);
-    margin: auto;
-    margin-bottom: 100px;
+    margin: auto; 
     border-radius: 8px;
     box-shadow: 0 0 3px 3px hsl(0, 0%, 0%, 0.1);
 }
@@ -142,25 +141,93 @@ h3{
 .img5{
     width: 350px; 
 }
-/* styling container5 */
+/* styling footer & container5 */
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 450px;
+    margin-top: 230px;
+    position: relative;
+}
 .container5{
     width: 50%;
-    height: 150px;
-    background-image: url(images/icon-email.svg);
-    margin: auto;
+    height: 200px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 8px;
     box-shadow: 0 0 3px 3px hsl(0, 0%, 0%, 0.1);
-}
-.class9{
-    padding: 35px 50px;
+    display: block;
+    position: absolute;
+    top: -120px;
+    left: 25%;
+    padding: 50px;
     text-align: center;
+    justify-content: center;
 }
+
 .btn3{
     border: none;
     border-radius: 50px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(322, 100%, 66%);
+    margin-top: 15px;
     padding: 15px 50px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    box-shadow: 0 0 8px 8px hsl(0, 0%, 0%, 0.1);
+}
+
+.container6{
+    display: flex;
+    margin: auto;
+    color: white;
+    margin-top: 150px;
+    width: 80%;
+}
+.class9{
+    flex: 20%;
+    padding-top: 150px; 
+    padding-right: 100px;
+
+}
+.class10{
+    flex: 20%;
+    padding-top: 230px; 
+
+}
+.class11{
+    flex: 20%;
+    padding-top: 230px; 
+}
+.class12{
+    flex: 20%;
+    padding-top: 230px; 
+    padding-left: 50px;
+}
+ul{
+    list-style: none;
+}
+
+ul > li {
+    padding-bottom: 15px;
+}
+
+.class13{
+    display: flex;
+    padding-right: 20px;
+}
+.img6{
+    background-color: white;
+    margin-bottom: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.socials:hover{
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
 }
